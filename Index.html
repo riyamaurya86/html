@@ -1,14 +1,49 @@
-<html>
-    <head>
-     <title>Demo</title>
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial</title>
+</head>
 <body>
-    <h1>Hello</h1>
-    <h2>World</h2>
-    <h3>Tagging Message</h3>
+    <h1>HTML FORMS</h1>
+    <form action="Thankyou.html">
+        <label for="firstname"></label>
+        <input type="text" id="firstname" placeholder="First Name"><br><br>
 
+        <label for="lastname"></label>
+        <input type="text" id="lastname" placeholder="Last Name"><br><br>
+
+        <label for="email"></label>
+        <input type="email" id="email" placeholder="Email"><br><br>
+
+        <label for="password"></label>
+        <input type="password" id="password" placeholder="Password"><br><br>
+
+        <p>Select your gender</p>
+        <label for="male">Male:</label>
+        <input type="radio" name="gender" id="male"> <br>
+
+        <label for="female">Female:</label>
+        <input type="radio" name="gender" id="female"><br>
+
+        <label for="other">Other:</label>
+        <input type="radio" name="gender" id="other"><br>
+
+        <label for="country">Country:</label>
+        <select name="country" id="country">
+        <option value="India">India</option>
+        <option value="USA">USA</option>
+        <option value="UK">UK</option>
+        <option value="Amsterdam">Amsterdam</option>
+        <option value="Switzerland">Switzerland</option>
+        </select><br>
+
+        <p>Write about yourself</p>
+        <textarea name="" id="" cols="30" rows="10"placeholder="type here"></textarea><br>
+
+         <input type="submit" value="sign-in">
+    </form>
 </body>
-
-
-
 </html>
