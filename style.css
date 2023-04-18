@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.textred{
+    color: rgb(85, 76, 76);
+}
+.textblue{
+    color: rgb(95, 95, 136);
+}
+.bg{
+    background-color: rgb(182, 180, 180);
+}
+.bgd{
+    background-color: rgb(216, 216, 201);
+}
+span{
+    background-color: aqua;
+}
